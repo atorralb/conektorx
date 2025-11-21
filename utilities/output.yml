@@ -1,0 +1,37 @@
+{http://maven.apache.org/POM/4.0.0}project:
+  {http://maven.apache.org/POM/4.0.0}modelVersion: 4.0.0
+  {http://maven.apache.org/POM/4.0.0}parent:
+    {http://maven.apache.org/POM/4.0.0}groupId: org.springframework.boot
+    {http://maven.apache.org/POM/4.0.0}artifactId: spring-boot-starter-parent
+    {http://maven.apache.org/POM/4.0.0}version: 3.5.7
+    {http://maven.apache.org/POM/4.0.0}relativePath:
+  {http://maven.apache.org/POM/4.0.0}groupId: com.example
+  {http://maven.apache.org/POM/4.0.0}artifactId: demo
+  {http://maven.apache.org/POM/4.0.0}version: 0.0.1-SNAPSHOT
+  {http://maven.apache.org/POM/4.0.0}name: demo
+  {http://maven.apache.org/POM/4.0.0}description: demo
+  {http://maven.apache.org/POM/4.0.0}url:
+  {http://maven.apache.org/POM/4.0.0}licenses:
+    {http://maven.apache.org/POM/4.0.0}license:
+  {http://maven.apache.org/POM/4.0.0}developers:
+    {http://maven.apache.org/POM/4.0.0}developer:
+  {http://maven.apache.org/POM/4.0.0}scm:
+    {http://maven.apache.org/POM/4.0.0}connection:
+    {http://maven.apache.org/POM/4.0.0}developerConnection:
+    {http://maven.apache.org/POM/4.0.0}tag:
+    {http://maven.apache.org/POM/4.0.0}url:
+  {http://maven.apache.org/POM/4.0.0}properties:
+    {http://maven.apache.org/POM/4.0.0}java.version: 21
+  {http://maven.apache.org/POM/4.0.0}dependencies:
+    {http://maven.apache.org/POM/4.0.0}dependency:
+      -
+        {http://maven.apache.org/POM/4.0.0}groupId: org.springframework.boot
+        {http://maven.apache.org/POM/4.0.0}artifactId: spring-boot-starter
+      -
+        {http://maven.apache.org/POM/4.0.0}groupId: org.springframework.boot
+        {http://maven.apache.org/POM/4.0.0}artifactId: spring-boot-starter-web
+  {http://maven.apache.org/POM/4.0.0}build:
+    {http://maven.apache.org/POM/4.0.0}plugins:
+      {http://maven.apache.org/POM/4.0.0}plugin:
+        {http://maven.apache.org/POM/4.0.0}groupId: org.springframework.boot
+        {http://maven.apache.org/POM/4.0.0}artifactId: spring-boot-maven-plugin

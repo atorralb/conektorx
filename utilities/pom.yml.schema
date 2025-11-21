@@ -1,0 +1,40 @@
+project:
+  modelVersion: ${{ project.modelVersion }}
+  parent:
+    groupId: ${{ parent.groupId }}
+    artifactId: ${{ parent.artifactId }}
+    version: ${{ parent.version }}
+    relativePath: ${{ parent.relativePath }}
+  groupId: com.example
+  artifactId: demo
+  version: 0.0.1-SNAPSHOT
+  name: demo
+  description: demo
+  url: ''
+  licenses:
+    license: ''
+  developers:
+    developer: ''
+  scm:
+    connection: ''
+    developerConnection: ''
+    tag: ''
+    url: ''
+  properties:
+    java.version: '21'
+  dependencies:
+    dependency:
+      - groupId: org.springframework.boot
+        artifactId: spring-boot-starter
+      - groupId: org.springframework.boot
+        artifactId: spring-boot-starter-web
+  build:
+    plugins:
+      plugin:
+        groupId: org.springframework.boot
+        artifactId: spring-boot-maven-plugin
+  _xmlns: 'http://maven.apache.org/POM/4.0.0'
+  '_xmlns:xsi': 'http://www.w3.org/2001/XMLSchema-instance'
+  '_xsi:schemaLocation': >-
+    http://maven.apache.org/POM/4.0.0
+    https://maven.apache.org/xsd/maven-4.0.0.xsd
